@@ -1,15 +1,12 @@
 <?php
 
-namespace mageekguy\atoum\blackfire\asserters\tests\units;
+namespace atoum\blackfire\asserters\tests\units;
 
 use Blackfire\Profile\Metric;
 use Blackfire\Profile\MetricLayer;
-use
-    mageekguy\atoum,
-    mageekguy\atoum\blackfire\asserters\blackfire as testedClass
-;
+use atoum\blackfire\asserters\blackfire as testedClass;
 
-class blackfire extends atoum\test
+class blackfire extends \atoum\test
 {
 
     public function testSetWithWithoutClient()

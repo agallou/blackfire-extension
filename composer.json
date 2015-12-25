@@ -13,8 +13,9 @@
     ],
     "autoload": {
         "psr-4": {
-            "mageekguy\\atoum\\blackfire\\": "classes"
-        }
+            "atoum\\blackfire\\": "classes"
+        },
+        "files": ["autoloader.php"]
     },
     "require": {
         "atoum/atoum": "<3.0",

@@ -1,6 +1,6 @@
 <?php
 
-namespace mageekguy\atoum\blackfire\asserters;
+namespace atoum\blackfire\asserters;
 
 use Blackfire\Client;
 use Blackfire\Profile\Configuration;

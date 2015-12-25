@@ -1,13 +1,10 @@
 <?php
 
-namespace mageekguy\atoum\blackfire\tests\units;
+namespace atoum\blackfire\tests\units;
 
-use
-    mageekguy\atoum,
-    mageekguy\atoum\blackfire\extension as testedClass
-    ;
+use atoum\blackfire\extension as testedClass;
 
-class extension extends atoum\test
+class extension extends \atoum\test
 {
 
     public function testSetTest()

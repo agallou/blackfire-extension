@@ -1,6 +1,6 @@
 <?php
 
-namespace mageekguy\atoum\blackfire;
+namespace atoum\blackfire;
 
 use Blackfire\Client;
 use mageekguy\atoum;
@@ -26,7 +26,7 @@ class extension implements atoum\extension
                 function(Client $client) use ($test, & $asserter) {
                     if ($asserter === null)
                     {
-                        $asserter = new atoum\blackfire\asserters\blackfire($test->getAsserterGenerator());
+                        $asserter = new asserters\blackfire($test->getAsserterGenerator());
                     }
 
                     $asserter->setClient($client);
